@@ -3,42 +3,31 @@
 .AppleDouble
 .LSOverride
 
-# Directory metadata
-.directory
-
 # Temporary files
 *~
 *.swp
 *.swo
 *.bak
 *.tmp
-
-# Log files
 *.log
 
-# Build artifacts and directories
-**/build/
+# ESP-IDF build directory and artifacts
 build/
+**/build/
 *.o
 *.a
-*.out
-*.exe # For any host-side utilities compiled on Windows
-
-# ESP-IDF specific build outputs
-*.bin
 *.elf
+*.bin
 *.map
-flasher_args.json # Generated in build directory
+*.out
+*.exe
+*.hex
+flasher_args.json
 sdkconfig.old
-sdkconfig
 
-# ESP-IDF dependencies
-# For older versions or manual component management
-/components/.idf/
-**/components/.idf/
-# For modern ESP-IDF component manager
+# ESP-IDF dependencies and local tools
+components/.idf/
 managed_components/
-# If ESP-IDF tools are installed/referenced locally to the project
 .espressif/
 
 # CMake generated files
@@ -47,8 +36,9 @@ CMakeFiles/
 cmake_install.cmake
 install_manifest.txt
 CTestTestfile.cmake
+compile_commands.json
 
-# Python environment files
+# Python cache and packages
 *.pyc
 *.pyo
 *.pyd
@@ -56,23 +46,50 @@ __pycache__/
 *.egg-info/
 dist/
 
-# Virtual environment folders
+# Python virtual environments
 venv/
 .venv/
 env/
 
-# Language Servers
+# Language servers
 .clangd/
 .ccls-cache/
-compile_commands.json
 
-# Windows specific
+# Windows
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 
 # User-specific configuration files
 *.user
-*.workspace # General workspace files, can be from various tools
-*.suo       # Visual Studio Solution User Options
-*.sln.docstates # Visual Studio
+*.suo
+*.sln.docstates
+
+# Other C/C++ build artifacts
+*.d
+*.obj
+*.ko
+*.lib
+*.la
+*.lo
+*.dll
+*.so
+*.so.*
+*.dylib
+*.app
+*.gch
+*.pch
+*.ilk
+*.exp
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.dwo
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
