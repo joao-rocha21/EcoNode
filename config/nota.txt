@@ -1,0 +1,2 @@
+depois a estrutura do ficheiro config.json pode mudar dependendo do que seja
+possivel configurar dinamicamente e credenciais necessarias

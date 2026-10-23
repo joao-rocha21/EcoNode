@@ -1,0 +1,5 @@
+dependencies:
+    idf: ">=6.1"
+
+    espressif/mqtt: "*"
+    espressif/cjson: "*"

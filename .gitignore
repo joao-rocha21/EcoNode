@@ -93,3 +93,12 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Other
+.vscode
+platformio.ini
+.pio
+sdkconfig.esp32-c6-devkitc-1
+sdkconfig
+notes_econode/.obsidian
+managed_components/

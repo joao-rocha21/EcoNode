@@ -1,0 +1,2 @@
+Nesta pasta fica o registo das decisões arquiteturais do projeto
+Isto é diferente das entradas semanais que ficam no README.md

@@ -1,0 +1,16 @@
+{
+	"config_version": 1,
+	"node_id": 1019,
+	"sampling_period_s": 10,
+	"wifi": {
+		"ssid": "YOUR_WIFI_SSID",
+		"password": "YOUR_WIFI_PASSWORD"
+	},
+	"server": {
+		"uri": "mqtt://YOUR_SERVER_ADDRESS:1883",
+		"topic_base": "econode/1019/"
+	},
+	"display": {
+		"brightness": 75
+	}
+}

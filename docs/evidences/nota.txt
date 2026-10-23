@@ -1,0 +1,2 @@
+Guarda evidências do desenvolvimento e da validação dos requisitos, como fotografias, capturas de ecrã
+ou copiar o output do teste, gráficos e resultados de testes.

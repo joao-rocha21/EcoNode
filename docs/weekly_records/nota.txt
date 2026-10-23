@@ -1,0 +1,6 @@
+Aqui fica registado os registos semanais para não ter que andar a ver as versões
+antigas do ficheiro README.md no histórico do repositório.
+
+Mas cada registos semanal deverá ser colocado no README.md
+
+-> Atualizar a cada semana.
